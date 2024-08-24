@@ -1,0 +1,3 @@
+# Proyecto Individual N° 2  - Data Analytics: Telecomunicaciones
+
+En este proyecto ejerceré el rol de Data Analyst, a los efectos de realizar un análisis completo para conocer el comportamiento del Sector de Telecomunicaciones en Argentina, a lo largo de todo el país. Se hará principalmente foco en los accesos al servicio de Internet, pero sin dejar de analizar el comportamiento asociado a otros servicios de comunicación, con el objeto de orientar al cliente a mejorar la calidad de sus servicios e identificar mejoras y posibilidades de crecimiento.
