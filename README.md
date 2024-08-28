@@ -9,6 +9,7 @@ En este proyecto ejerceré el rol de Data Analyst, a los efectos de realizar un 
 5. [Dashboard](#dashboard)
 6. [Consideraciones finales](#consideraciones-finales)
 
+![Telecomunicaciones](./IMG/telecomunicaciones.jpg)
 ## Extracción, Carga y Transformación de los Datos (ETL)
 inicialmente, abordamos la carga de los datos, un paso fundamental para iniciar cualquier análisis. Teniendo en consideración la amplia variedad de archivos posibles a incluir y la falta de una instrucción en ese sentido, se debió realizar un análisis preliminar paralela al análisis de la información disponible. Este enfoque nos permitió no solo familiarizarnos con los datos, sino también obtener una comprensión inicial del área de negocio. <br>
 Durante este proceso, se realizó un análisis y normalización de los datos; manejando los valores nulos, faltantes y duplicados. Esta gestión resulta clave a los efectos de visualizar los datos de manera rápida y contar con una base sólida para las decisiones posteriores. <br>
@@ -24,17 +25,17 @@ Una vez finalizado el análisis preliminar y la normalización de los datos, se 
 - **Crecimiento en Provincias Menos Desarrolladas:** Provincias que históricamente han mostrado un menor desarrollo, como San Luis y Santa Cruz, han experimentado un crecimiento exponencial en el acceso a internet debido a la implementación de políticas específicas para la expansión de la red. Sin embargo, aún existen provincias que están por debajo del promedio nacional, lo que indica un potencial significativo para la expansión de la conectividad.
 
 - **Mejoras en la Calidad de la Red:** Las mejoras en la calidad de la red han estado impulsadas, en gran medida, por la adopción de nuevas tecnologías. Esto no solo ha permitido la creación de nuevos accesos mediante tecnologías más modernas, sino también la sustitución de tecnologías obsoletas como el ADSL por sistemas más avanzados como Cablemodem y Fibra Óptica.
-![Gráfico](#IMG/velocidad-tecno.png)
+![Gráfico](./IMG/velocidad-tecno.png)
 
 
 - **Prevalencia de Tecnologías Avanzadas:** Las tecnologías de Cablemodem y Fibra Óptica predominan en la oferta actual. A la derecha, la distribución por provincias revela que la Provincia de Buenos Aires lidera en cantidad de conexiones, seguida por CABA y Córdoba.
-![Grafico](#IMG/distrib-tecno.png)
+![Grafico](./IMG/distrib-tecno.png)
 
 
 - **Desigualdades Regionales en Velocidad de Descarga:** Al analizar la velocidad media de descarga, destaca la Ciudad Autónoma de Buenos Aires, lo cual tiene sentido dado su carácter de metrópolis con alta densidad poblacional y grandes inversiones tecnológicas. Sin embargo, provincias más extensas y menos densamente pobladas, como Buenos Aires, se encuentran en desventaja en términos de velocidad de conexión.
 
 - **Tendencias en la Evolución de la Red:** Desde 2017 hasta la actualidad, se ha observado un crecimiento sostenido en la adopción de nuevas tecnologías, especialmente desde la segunda mitad de 2022. Esto coincide con la consolidación del trabajo remoto y las políticas de expansión de la conectividad impulsadas por la pandemia de Covid-19.
-![Gráfico](#IMG/evolucion-acceso.png)
+![Gráfico](./IMG/evolucion-acceso.png)
 
 - **Impacto de las Nuevas Tecnologías:** La sustitución de ADSL por Cablemodem y el incremento en las conexiones de Fibra Óptica son tendencias claras en la última década. Desde 2018, la Fibra Óptica ha mostrado un crecimiento exponencial, consolidándose como la tecnología más prometedora para el futuro de las telecomunicaciones en el país.
 
@@ -57,7 +58,7 @@ En alineación con el análisis desarrollado, se propusieron los siguientes KPIs
 
 - Porcentaje de Red en Fibra Óptica : El KPI de Porcentaje de Red en Fibra Óptica se ha identificado como de gran relevancia debido a su fuerte correlación con la calidad de la red de internet, medida en términos de velocidad de descarga. Se ha observado que un mayor porcentaje de fibra óptica en la infraestructura de la red está directamente relacionado con un incremento en la velocidad promedio de descarga, lo que hace de este KPI una herramienta muy útil para evaluar la calidad del servicio. Este KPI es especialmente valioso porque proporciona una medida tangible de la mejora en la infraestructura de red, a diferencia del promedio de velocidad, que puede verse afectado por diversos factores económicos y tecnológicos. Además, el porcentaje de fibra óptica es un indicador más objetivo y menos dependiente de la capacidad económica del cliente, permitiendo una evaluación más precisa del avance en la modernización de la red.
 
--Tasa de Crecimiento de Velocidad por Trimestre: Este indicador  mide el incremento porcentual en la velocidad media de internet en cada provincia, comparando un trimestre con el trimestre anterior. Este KPI proporciona una visión clara y detallada de cómo está evolucionando la velocidad de la red a lo largo del tiempo, permitiendo identificar tendencias y áreas de mejora. Permite evaluar el progreso en la mejora de la velocidad de internet en diferentes provincias, reflejando la efectividad de las inversiones y políticas implementadas en el área de telecomunicaciones.
+- Tasa de Crecimiento de Velocidad por Trimestre: Este indicador  mide el incremento porcentual en la velocidad media de internet en cada provincia, comparando un trimestre con el trimestre anterior. Este KPI proporciona una visión clara y detallada de cómo está evolucionando la velocidad de la red a lo largo del tiempo, permitiendo identificar tendencias y áreas de mejora. Permite evaluar el progreso en la mejora de la velocidad de internet en diferentes provincias, reflejando la efectividad de las inversiones y políticas implementadas en el área de telecomunicaciones.
 
 
 ## Dashboard
